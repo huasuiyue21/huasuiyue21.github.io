@@ -1,4 +1,4 @@
-简单的介绍一下设计模式和设计模式的使用
+简单的介绍一下设计模式和设计模式的使用：
 
 设计模式的一般定义如下：
 
@@ -22,5 +22,40 @@
 	<tr>
 		<th>设计原则名称</th>
 		<th>定  义</th>
+	</tr>
+	<tr>
+		<td>单一职责原则
+(Single Responsibility Principle, SRP)</td>
+		<td>一个类只负责一个功能领域中的相应职责</td>
+	</tr>
+	<tr>
+		<td>开闭原则
+(Open-Closed Principle, OCP)</td>
+		<td>软件实体应对扩展开放，而对修改关闭</td>
+	</tr>
+	<tr>
+		<td>里氏代换原则
+(Liskov Substitution Principle, LSP)</td>
+		<td>所有引用基类对象的地方能够透明地使用其子类的对象</td>
+	</tr>
+	<tr>
+		<td>依赖倒转原则
+(Dependence  Inversion Principle, DIP)</td>
+		<td>抽象不应该依赖于细节，细节应该依赖于抽象</td>
+	</tr>
+	<tr>
+		<td>接口隔离原则
+(Interface Segregation Principle, ISP)</td>
+		<td>使用多个专门的接口，而不使用单一的总接口</td>
+	</tr>
+	<tr>
+		<td>合成复用原则
+(Composite Reuse Principle, CRP)</td>
+		<td>尽量使用对象组合，而不是继承来达到复用的目的</td>
+	</tr>
+	<tr>
+		<td>迪米特法则
+(Law of Demeter, LoD)</td>
+		<td>一个软件实体应当尽可能少地与其他实体发生相互作用</td>
 	</tr>
 </table>
